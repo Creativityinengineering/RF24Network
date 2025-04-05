@@ -23,7 +23,7 @@
         #include <RF24/RF24.h>
     #endif
 #else
-    #include "RF24.h"
+    #include "../RF24/RF24.h"
     #if defined(ARDUINO_ARCH_NRF52) || defined(ARDUINO_ARCH_NRF52840)
         #include <nrf_to_nrf.h>
     #endif
